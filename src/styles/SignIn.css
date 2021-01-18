@@ -1,0 +1,56 @@
+.signin{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7473c;
+}
+.signin > .signin__wrapper{
+  width: 50vh;
+  height: 50vh;
+  background-color: #f0eff0;
+  border: none;
+  box-shadow: 0 10px 30px rgb(116, 6, 6);
+}
+.signin > .signin__wrapper > .signin__form{
+  height: 80%;
+}
+.signin > .signin__wrapper > .signin__form > form{
+  padding-top: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signin > .signin__wrapper > .signin__form > form > input,
+.signin > .signin__wrapper > .signin__form > form > button {
+  width: 80%;
+  height: 40px;
+  border: none;
+}
+.signin > .signin__wrapper > .signin__form > form > input{
+  margin-bottom: 15px;
+  font-size: 22px;
+  padding-left: 10px;
+  background-color: #e6e1e1;
+}
+.signin > .signin__wrapper > .signin__form > form > button{
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #e7473c;
+}
+
+.signin > .signin__wrapper > .signin__register{
+  font-size: 18px;
+  text-align: center;
+}
+.signin > .signin__wrapper > .signin__register > p > .signin__register__create{
+  cursor: pointer;
+  color: #e7473c;
+  font-weight: 800;
+}
+.signin > .signin__wrapper > .signin__register > p > .signin__register__create:hover{
+  color: #3d3a3a; 
+}

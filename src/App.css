@@ -1,0 +1,9 @@
+@import "./styles/reset.css";
+
+*{
+  box-sizing: border-box;
+}
+
+.signin__container, .content__container{
+  height: 100vh;
+}
